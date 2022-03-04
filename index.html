@@ -10,30 +10,111 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+    .container{
+      font-family: 'Barlow Semi Condensed', sans-serif;
+      padding: 100px;
+    }
+
+    .card{
+      padding: 10px 50px;
+      border: 3px solid transparent;
+      border-radius: 10px;
+      max-width: 500px;
+      color: hsl(0, 0%, 81%);
+    }
+
+    .one{
+      background-color: hsl(263, 55%, 52%);
+    }
+
+    .intro{
+      display: inline-block;
+    }
+
+    .avt{
+      border: 2px solid hsl(0, 0%, 81%);
+      border-radius: 50%;
+      max-width: 30px;
+      margin-right: 20px;
+    }
+
+    .highlight{
+      color:hsl(0, 0%, 100%);
+      font-size: larger;
+      margin: inherit;
+    }
+
+    .text{
+      opacity: 70%;
+    }
+
+    .tag{
+      opacity: 50%;
+    }
+
+    .two{
+      background: hsl(217, 19%, 35%);
+      max-width: 200px;
+      padding: 20px 30px;
+    }
+
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-  Daniel Clifford
-  Verified Graduate
+  <div class="container">
+    <div class="half">
+      <div class="up">
+        <div class="card one">
+          <div class="avatar">
+            <img class="avt" src="./images/image-daniel.jpg" alt="">
+            <div class="intro">
+              <p class="name">Danial Clifford</p>
+              <p class="tag">Verified Graduate</p>
+            </div>
+          </div>
+        
+          <p class="highlight">
+            I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+            in the company I joined. I honestly feel I got every penny’s worth.
+          </p>
+        
+          <p class="text">
+            “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+            transition and have heard some people who had an amazing experience here. I signed up 
+            for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
+            The next 12 weeks was the best - and most grueling - time of my life. Since completing 
+            the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+          </p>
+        </div>
+        <div class="card two">
+          <div class="avatar">
+            <img class="avt" src="./images/image-jeanette.jpg" alt="">
+            <div class="intro">
+              <p class="name">Jonathan Walters</p>
+              <p class="tag">Verified Graduate</p>
+            </div>
+          </div>
 
-  I received a job offer mid-course, and the subjects I learned were current, if not more so, 
-  in the company I joined. I honestly feel I got every penny’s worth.
+          <p class="highlight">
+            The team was very supportive and kept me motivated
+          </p>
 
-  “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
-  transition and have heard some people who had an amazing experience here. I signed up 
-  for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
-  The next 12 weeks was the best - and most grueling - time of my life. Since completing 
-  the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+          <p class="text">
+            “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+            for a big company. This was one of the best investments I’ve made in myself. ”
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 
-  Jonathan Walters
-  Verified Graduate
+ 
 
-  The team was very supportive and kept me motivated
 
-  “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
-  for a big company. This was one of the best investments I’ve made in myself. ”
 
   Jeanette Harmon
   Verified Graduate
