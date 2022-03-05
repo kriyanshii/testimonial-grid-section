@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 .container{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    padding: 50px 80px;
+    padding: 50px 50px;
     display: grid;
     grid-gap: 1rem;
     grid-template-rows: repeat(2,22rem);
